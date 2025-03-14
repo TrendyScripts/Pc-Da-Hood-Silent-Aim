@@ -15,7 +15,7 @@ getgenv().life = {
         ['Prediction'] = 0.1,
         ['JumpOffset'] = 0.09,
         Camera = {
-            ['Smoothness'] = 1,
+            ['Smoothness'] = 0.7,
             ['TracePart'] = "Head"
         }
     },
