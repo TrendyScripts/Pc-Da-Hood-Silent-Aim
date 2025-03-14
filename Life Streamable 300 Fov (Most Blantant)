@@ -1,0 +1,34 @@
+getgenv().life = {
+    Silent = {
+        ['Enabled'] = true,
+        ['Prediction'] = 0.05,
+        ['HitPart'] = "Head",
+        ['Mode'] = "Index",
+    },
+    SilentFov = {
+        ['Enabled'] = false,
+        ['Size'] = 300,
+    },
+    Camlock = {
+        ['Enabled'] = true,
+        ['Keybind'] = "Q",
+        ['Prediction'] = 0.1,
+        ['JumpOffset'] = 0.09,
+        Camera = {
+            ['Smoothness'] = 1,
+            ['TracePart'] = "Head"
+        }
+    },
+    HitSounds = {
+        ['Enabled'] = true,
+        ['Sound'] = "Minecraft",
+    },
+    WalkSpeed = {
+        ['Enabled'] = true,
+        ['Speed'] = 300,
+        ['Keybind'] = "X"
+    }
+}
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IronVanguardX88/minecraftfans/refs/heads/main/obf792528262852727266-obfuscated.lua"))()
